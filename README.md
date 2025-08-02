@@ -1,4 +1,4 @@
-# Command Prompt - Full Feature Implementation
+# Command Prompt
 
 Windows Command Prompt written in Python that supports **100+ commands** with authentic behavior and full compatibility.
 
@@ -433,3 +433,4 @@ This project is created for educational purposes. It demonstrates how to build a
 
 
 This Command Prompt provides an excellent foundation for understanding how command-line interpreters work and can be extended for educational or practical purposes.
+
