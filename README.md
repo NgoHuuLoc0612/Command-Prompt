@@ -47,7 +47,7 @@ Windows Command Prompt written in Python that supports **100+ commands** with au
 ## 📁 Complete File Structure
 
 ```
-cmd_clone/
+Command-Prompt/
 ├── main.py                 # Entry point and main command loop
 ├── command_processor.py    # Command parsing and execution engine  
 ├── commands.py            # Core built-in command implementations
@@ -55,7 +55,7 @@ cmd_clone/
 ├── batch_support.py       # Complete batch file processing
 ├── utils.py              # Utility functions and helpers
 ├── config.py             # Configuration settings and constants
-├── run_cmd_clone.bat     # Windows launcher script
+├── run_cmd.bat     # Windows launcher script
 └── README.md             # Complete documentation
 ```
 
@@ -93,16 +93,16 @@ python main.py
 
 ### Windows Launcher
 ```batch
-# Double-click run_cmd_clone.bat
+# Double-click run_cmd.bat
 # Or from CMD:
-run_cmd_clone.bat
+run_cmd.bat
 ```
 
 ## 💡 Example Usage
 
 ### Basic Commands
 ```cmd
-Microsoft Windows [Version 10.0.19041.1706]
+Microsoft Windows [Version 10.0.26100.4061]
 (c) Microsoft Corporation. All rights reserved.
 
 C:\>dir /w
@@ -231,10 +231,10 @@ python main.py
 ### Example Session
 
 ```
-Microsoft Windows [Version 10.0.19041.1706]
+Microsoft Windows [Version 10.0.26100.4061]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\YourName\cmd_clone>dir
+C:\Users\YourName\Command-Prompt>dir
  Volume in drive C has no label.
  Volume Serial Number is 0000-0000
 
@@ -250,10 +250,10 @@ C:\Users\YourName\cmd_clone>dir
                5 File(s)         34,145 bytes
                2 Dir(s)  123,456,789,012 bytes free
 
-C:\Users\YourName\cmd_clone>echo Hello World!
+C:\Users\YourName\Command-Prompt>echo Hello World!
 Hello World!
 
-C:\Users\YourName\cmd_clone>cd ..
+C:\Users\YourName\Command-Prompt>cd ..
 C:\Users\YourName>exit
 Goodbye!
 ```
@@ -430,5 +430,6 @@ This project is created for educational purposes. It demonstrates how to build a
 - Path traversal protection
 - Input validation for file operations
 - Safe handling of user input
+
 
 This Command Prompt provides an excellent foundation for understanding how command-line interpreters work and can be extended for educational or practical purposes.
